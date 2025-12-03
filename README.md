@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # AthletIA - Prototipo UI
 
 Sistema de administración para gimnasios que permite gestionar miembros, ejercicios y rutinas de entrenamiento con integración de IA para generación de contenido.
@@ -36,7 +32,9 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
 - Tabla de últimas actividades
 - Selector de período temporal para filtrar datos
 
-**Captura de pantalla:** _[Pendiente: /docs/img/dashboard.png]_
+<div align="center">
+    <img src="/frontend/docs/img/dashboard.png" alt="Dashboard - AthletIA" width="1200" />
+</div>
 
 ---
 
@@ -55,7 +53,9 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Botón "Ver Detalles"
   - Menú de opciones (MoreVertical)
 
-**Captura de pantalla:** _[Pendiente: /docs/img/exercises.png]_
+<div align="center">
+    <img src="/frontend/docs/img/ejercicioslist.png" alt="ejercicioslist" width="1200" />
+</div>
 
 ---
 
@@ -70,29 +70,90 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Selectores de músculo y equipo
   - Área de texto para descripción
   - Botón "Generar con IA" (Sparkles icon)
+    
+<div align="center">
+    <img src="/frontend/docs/img/paso1.png" alt="paso1" width="1200" />
+</div>
+
+<div align="center">
+    <img src="/frontend/docs/img/paso1_1.png" alt="paso1_1" width="1200" />
+</div>
+
 - **Paso 2 - Grupos musculares:**
   - Selector de músculo principal
   - Selector de músculo secundario
+     
+<div align="center">
+    <img src="/frontend/docs/img/paso2.png" alt="paso2" width="1200" />
+</div>
+
 - **Paso 3 - Multimedia:**
   - Zona de drag & drop para archivos
   - Vista previa de imágenes/videos
   - Botón de selección de archivos
+
+<div align="center">
+    <img src="/frontend/docs/img/paso3.png" alt="paso3" width="1200" />
+</div>
+
+<div align="center">
+    <img src="/frontend/docs/img/paso3_3.png" alt="paso3_3" width="1200" />
+</div>
+
 - **Paso 4 - Instrucciones:**
   - Lista de pasos ordenados
   - Botones para añadir/eliminar instrucciones
+
+<div align="center">
+    <img src="/frontend/docs/img/paso4.png" alt="paso4" width="1200" />
+</div>
+
 - **Paso 5 - Beneficios:**
   - Formulario de título y descripción
   - Selector de categorías
+
+<div align="center">
+    <img src="/frontend/docs/img/paso5.png" alt="paso5" width="1200" />
+</div>
+
+<div align="center">
+    <img src="/frontend/docs/img/paso5_5.png" alt="paso5_5" width="1200" />
+</div>
+
 - **Paso 6 - Variantes:**
   - Lista de variantes del ejercicio
   - Campos de nombre y notas
+
+<div align="center">
+    <img src="/frontend/docs/img/paso6.png" alt="paso6" width="1200" />
+</div>
+
+<div align="center">
+    <img src="/frontend/docs/img/paso6_1.png" alt="paso6_1" width="1200" />
+</div>
+
+<div align="center">
+    <img src="/frontend/docs/img/paso6_2.png" alt="paso6_2" width="1200" />
+</div>
+
 - **Paso 7 - Visibilidad:**
   - Toggle público/privado
+
+<div align="center">
+    <img src="/frontend/docs/img/paso7.png" alt="paso7" width="1200" />
+</div>
+
 - **Paso 8 - Vista previa:**
   - Resumen completo antes de publicar
 - Botones de navegación: Anterior, Siguiente, Guardar/Publicar
 
-**Captura de pantalla:** _[Pendiente: /docs/img/create-exercise.png]_
+<div align="center">
+    <img src="/frontend/docs/img/paso8.png" alt="paso8" width="1200" />
+</div>
+
+<div align="center">
+    <img src="/frontend/docs/img/paso8_1.png" alt="paso8_1" width="1200" />
+</div>
 
 ---
 
@@ -113,83 +174,17 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
 - Sección de beneficios (Heart icon)
 - Variantes del ejercicio (GitBranch icon)
 
-**Captura de pantalla:** _[Pendiente: /docs/img/exercise-detail.png]_
+<div align="center">
+    <img src="/frontend/docs/img/vista_ejercicios.png" alt="vista_ejercicios" width="1200" />
+</div>
 
----
+<div align="center">
+    <img src="/frontend/docs/img/ejercicio_detalle.png" alt="ejercicio_detalle" width="1200" />
+</div>
 
-### 5. Perfil de Miembro (MemberProfile)
-
-**Propósito:** Visualizar y gestionar la información completa de un miembro del gimnasio.
-
-**Componentes principales:**
-- Breadcrumb de navegación
-- Cabecera con:
-  - Avatar circular del miembro (imagen de perfil)
-  - Nombre y badge de estado (Activo/Inactivo)
-  - ID y fecha de ingreso
-  - Botones: "Editar Perfil" (Edit icon) y "Renovar" (CreditCard icon)
-- Sistema de tabs navegables:
-  - Detalles Personales (activo por defecto)
-  - Membresía
-  - Rutinas
-  - Asistencia
-- Panel de "Información de Contacto" con:
-  - Correo electrónico (Mail icon)
-  - Teléfono (Phone icon)
-  - Fecha de nacimiento (Calendar icon)
-  - Dirección (MapPin icon)
-
-**Captura de pantalla:** _[Pendiente: /docs/img/member-profile.png]_
-
----
-
-### 6. Creador de Rutinas (RoutineCreator)
-
-**Propósito:** Crear rutinas de entrenamiento personalizadas mediante una interfaz de arrastrar y soltar ejercicios.
-
-**Componentes principales:**
-- Input para nombre de la rutina
-- Botones de acción: "Guardar Plantilla" y "Guardar Rutina" (Save icon)
-- **Panel izquierdo - Biblioteca:**
-  - Barra de búsqueda interna (Search icon)
-  - Lista de ejercicios disponibles con:
-    - Nombre y grupo muscular
-    - Botón Plus para añadir
-- **Panel derecho - Constructor:**
-  - Zona de arrastre con borde punteado
-  - Lista de ejercicios añadidos con:
-    - Icono de reordenamiento (GripVertical)
-    - Nombre del ejercicio
-    - Inputs para series y repeticiones
-    - Botón de eliminación (Trash2 icon)
-  - Mensaje placeholder cuando está vacío
-
-**Captura de pantalla:** _[Pendiente: /docs/img/routine-creator.png]_
-
----
-
-### 7. Subir Multimedia (UploadMedia)
-
-**Propósito:** Gestionar la carga de imágenes y videos demostrativos para ejercicios.
-
-**Componentes principales:**
-- Zona de drag & drop con:
-  - Icono de Upload
-  - Texto instructivo
-  - Especificaciones: JPG, PNG, MP4, máx 50MB
-  - Botón "Seleccionar Archivos"
-- Sección de "Vista Previa" con:
-  - Lista de archivos en proceso de carga con:
-    - Miniatura o icono de tipo de archivo
-    - Nombre y tamaño del archivo
-    - Barra de progreso con porcentaje
-  - Lista de archivos completados con:
-    - Miniatura
-    - Check icon de confirmación
-- Botones de acción: "Cancelar" y "Subir Todo"
-
-**Captura de pantalla:** _[Pendiente: /docs/img/upload-media.png]_
-
+<div align="center">
+    <img src="/frontend/docs/img/ejercicio_detalle2.png" alt="ejercicio_detalle2" width="1200" />
+</div>
 ---
 
 ### 8. Layout (Navegación Principal)
@@ -211,8 +206,6 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Avatar de usuario administrador
   - Botón de configuración
 - Área de contenido principal (children) con padding responsive
-
-**Captura de pantalla:** _[Pendiente: /docs/img/layout.png]_
 
 ---
 
@@ -246,7 +239,3 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
 - **Lucide React** - Iconografía
 - **Recharts** - Gráficos
 - **Google Gemini AI** - Generación de contenido
-
-## Vista en AI Studio
-
-Ver el proyecto en AI Studio: https://ai.studio/apps/temp/1

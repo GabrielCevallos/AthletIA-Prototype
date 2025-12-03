@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # AthletIA - Prototipo UI
 
 Sistema de administración para gimnasios que permite gestionar miembros, ejercicios y rutinas de entrenamiento con integración de IA para generación de contenido.
@@ -37,7 +33,7 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
 - Selector de período temporal para filtrar datos
 
 <div align="center">
-    <img src="/docs/img/dashboard.png" alt="Dashboard - AthletIA" width="1200" />
+    <img src="/frontend/docs/img/dashboard.png" alt="Dashboard - AthletIA" width="1200" />
 </div>
 
 ---
@@ -58,7 +54,7 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Menú de opciones (MoreVertical)
 
 <div align="center">
-    <img src="/docs/img/ejercicioslist.png" alt="ejercicioslist" width="1200" />
+    <img src="/frontend/docs/img/ejercicioslist.png" alt="ejercicioslist" width="1200" />
 </div>
 
 ---
@@ -76,11 +72,11 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Botón "Generar con IA" (Sparkles icon)
     
 <div align="center">
-    <img src="/docs/img/paso1.png" alt="paso1" width="1200" />
+    <img src="/frontend/docs/img/paso1.png" alt="paso1" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/paso1_1.png" alt="paso1_1" width="1200" />
+    <img src="/frontend/docs/img/paso1_1.png" alt="paso1_1" width="1200" />
 </div>
 
 - **Paso 2 - Grupos musculares:**
@@ -88,7 +84,7 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Selector de músculo secundario
      
 <div align="center">
-    <img src="/docs/img/paso2.png" alt="paso2" width="1200" />
+    <img src="/frontend/docs/img/paso2.png" alt="paso2" width="1200" />
 </div>
 
 - **Paso 3 - Multimedia:**
@@ -97,11 +93,11 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Botón de selección de archivos
 
 <div align="center">
-    <img src="/docs/img/paso3.png" alt="paso3" width="1200" />
+    <img src="/frontend/docs/img/paso3.png" alt="paso3" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/paso3_3.png" alt="paso3_3" width="1200" />
+    <img src="/frontend/docs/img/paso3_3.png" alt="paso3_3" width="1200" />
 </div>
 
 - **Paso 4 - Instrucciones:**
@@ -109,7 +105,7 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Botones para añadir/eliminar instrucciones
 
 <div align="center">
-    <img src="/docs/img/paso4.png" alt="paso4" width="1200" />
+    <img src="/frontend/docs/img/paso4.png" alt="paso4" width="1200" />
 </div>
 
 - **Paso 5 - Beneficios:**
@@ -117,11 +113,11 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Selector de categorías
 
 <div align="center">
-    <img src="/docs/img/paso5.png" alt="paso5" width="1200" />
+    <img src="/frontend/docs/img/paso5.png" alt="paso5" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/paso5_5.png" alt="paso5_5" width="1200" />
+    <img src="/frontend/docs/img/paso5_5.png" alt="paso5_5" width="1200" />
 </div>
 
 - **Paso 6 - Variantes:**
@@ -129,22 +125,22 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
   - Campos de nombre y notas
 
 <div align="center">
-    <img src="/docs/img/paso6.png" alt="paso6" width="1200" />
+    <img src="/frontend/docs/img/paso6.png" alt="paso6" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/paso6_1.png" alt="paso6_1" width="1200" />
+    <img src="/frontend/docs/img/paso6_1.png" alt="paso6_1" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/paso6_2.png" alt="paso6_2" width="1200" />
+    <img src="/frontend/docs/img/paso6_2.png" alt="paso6_2" width="1200" />
 </div>
 
 - **Paso 7 - Visibilidad:**
   - Toggle público/privado
 
 <div align="center">
-    <img src="/docs/img/paso7.png" alt="paso7" width="1200" />
+    <img src="/frontend/docs/img/paso7.png" alt="paso7" width="1200" />
 </div>
 
 - **Paso 8 - Vista previa:**
@@ -152,11 +148,11 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
 - Botones de navegación: Anterior, Siguiente, Guardar/Publicar
 
 <div align="center">
-    <img src="/docs/img/paso8.png" alt="paso8" width="1200" />
+    <img src="/frontend/docs/img/paso8.png" alt="paso8" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/paso8_1.png" alt="paso8_1" width="1200" />
+    <img src="/frontend/docs/img/paso8_1.png" alt="paso8_1" width="1200" />
 </div>
 
 ---
@@ -179,15 +175,15 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
 - Variantes del ejercicio (GitBranch icon)
 
 <div align="center">
-    <img src="/docs/img/vista_ejercicios.png" alt="vista_ejercicios" width="1200" />
+    <img src="/frontend/docs/img/vista_ejercicios.png" alt="vista_ejercicios" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/ejercicio_detalle.png" alt="ejercicio_detalle" width="1200" />
+    <img src="/frontend/docs/img/ejercicio_detalle.png" alt="ejercicio_detalle" width="1200" />
 </div>
 
 <div align="center">
-    <img src="/docs/img/ejercicio_detalle2.png" alt="ejercicio_detalle2" width="1200" />
+    <img src="/frontend/docs/img/ejercicio_detalle2.png" alt="ejercicio_detalle2" width="1200" />
 </div>
 ---
 
