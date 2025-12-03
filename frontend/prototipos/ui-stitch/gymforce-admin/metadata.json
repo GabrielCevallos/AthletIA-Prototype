@@ -1,0 +1,7 @@
+{
+  "name": "AthletIA",
+  "description": "A comprehensive gym management dashboard for tracking members, exercises, and routines with AI-powered features.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
