@@ -212,6 +212,11 @@ El flujo típico comienza en el Dashboard, donde el administrador puede navegar 
 ## Ejecución Local
 
 **Prerequisitos:** Node.js 16+
+0.1 Navegar al directorio:
+   ```bash
+   cd .\frontend\prototipos\ui-stitch\gymforce-admin\
+   ```
+
 
 1. Instalar dependencias:
    ```bash
